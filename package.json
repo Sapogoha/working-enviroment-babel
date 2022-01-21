@@ -1,0 +1,31 @@
+{
+  "name": "working-enviroment-babel",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sapogoha/working-enviroment-babel.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "sapogoha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sapogoha/working-enviroment-babel/issues"
+  },
+  "homepage": "https://github.com/Sapogoha/working-enviroment-babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.10",
+    "@babel/preset-env": "^7.16.11"
+  },
+  "dependencies": {
+    "core-js": "^3.20.3"
+  }
+}
